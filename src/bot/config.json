@@ -1,0 +1,17 @@
+{
+    "name": "bot name",
+    "developers": {
+        "username": ["Discord Username", "techpowerb"],
+        "id": ["Discord Id", "1175040737784643637"]
+    },
+    "messageConfig": {
+        "globalEmojis": {
+            "cross": "<:8916crossmark:1200361991798263858>",
+            "tick": "<:7425classiccheckmark:1209411330973376544>",
+            "generating": "<a:2026emojisparkles:1203632515731161098>",
+            "loading": "<a:4704loadingicon:1209377718278422548>",
+            "warning": "<:9942warning:1209411734327136256>",
+            "security": "<:WhiteLogoRound:1209926282893336627>"
+        }
+    }
+}
