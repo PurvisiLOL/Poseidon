@@ -4,7 +4,7 @@ This Poseidon is written in Discord.js using node.js. It provides various functi
 
 ## Hosting Service
 
-- **Zyntech**(https://zyntech.xyz)
+- **Zyntech** (https://zyntech.xyz)
 
 ## Features
 
