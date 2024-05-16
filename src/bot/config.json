@@ -1,8 +1,8 @@
 {
-    "name": "bot name",
+    "name": "Poseidon",
     "developers": {
-        "username": ["Discord Username", "techpowerb"],
-        "id": ["Discord Id", "1175040737784643637"]
+        "username": ["Discord Username", "zyntech.xyz"],
+        "id": ["Discord Id", "1204326543724122112"]
     },
     "messageConfig": {
         "globalEmojis": {

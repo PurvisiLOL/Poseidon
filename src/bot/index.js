@@ -3,7 +3,6 @@ import start from "./core/utils/handlers/start.js";
 
 config();
 
-// Error handlers aka Anti-Crash system
 process.on("unhandledRejection", (reason, promise) => {
   console.error("[antiCrash] :: [unhandledRejection]");
   console.log(promise, reason);

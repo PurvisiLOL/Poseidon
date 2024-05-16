@@ -1,6 +1,10 @@
-# Discord Bot Template
+# Poseidon
 
-This Discord bot template is written in Discord.js using node.js. It provides various functionalities such as error handling, event handling, command handling, and component handling. The component handler supports handling buttons, all types of select menus, and modals. It also comes with mongodb support and utilizes ArrowmentJsonDB for small things 
+This Poseidon is written in Discord.js using node.js. It provides various functionalities such as error handling, event handling, command handling, and component handling. The component handler supports handling buttons, all types of select menus, and modals. It also comes with mongodb support and utilizes ArrowmentJsonDB for small things 
+
+## Hosting Service
+
+- **Zyntech**(https://zyntech.xyz)
 
 ## Features
 
@@ -72,8 +76,8 @@ export default {
 
 ## Contributing
 
-Contributions to this Discord bot template are welcome! If you have any suggestions, feature requests, or bug reports, feel free to open an issue or submit a pull request.
+Contributions to this Poseidon are welcome! If you have any suggestions, feature requests, or bug reports, feel free to open an issue or submit a pull request.
 
 ## License
 
-This Discord bot template is licensed under the [GNU](LICENSE). Feel free to modify and use it for your own projects.
+This Poseidon is licensed under the [GNU](LICENSE). Feel free to modify and use it for your own projects.
