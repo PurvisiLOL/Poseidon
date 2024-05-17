@@ -12,17 +12,17 @@ import humanize from "./humanize.js";
  * @param {ChatInputCommandInteraction} interaction - The interaction that triggered the event
  * @param {Client} client - The Discord.js client
  */
-async function validateUser(collection, interaction, client) {
+async function validateUser(collection, interaction, prefix, client) {
   let results1; // The results of the checks
   let results2;
   let message; // The tag of the user (e.g. "developer")
 
   if (collection.default.developer) {
-    results1 = checkForDeveloper(interaction); // Checking if the user is a developer
+    results1 = checkForDeveloper(interaction, prefix); // Checking if the user is a developer
     message = "You are not a developer to use this command"; // Setting the tag to "developer"
   } 
   if(collection.default.cooldown) {
-    results2 = await checkCooldown(interaction, collection.default.cooldown, false, client)
+    results2 = await checkCooldown(interaction, collection.default.cooldown, false, client, prefix)
     message = `Please wait ${humanize(collection.default.cooldown)}, before using the command again.`
   }
 

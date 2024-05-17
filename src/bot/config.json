@@ -12,6 +12,7 @@
             "loading": "<a:4704loadingicon:1209377718278422548>",
             "warning": "<:9942warning:1209411734327136256>",
             "security": "<:WhiteLogoRound:1209926282893336627>"
-        }
+        },
+        "default_prefix": "!"
     }
 }

@@ -4,6 +4,7 @@ import client from "../client/client.js";
 import loadEvents from "./loadEvents.js";
 import registerSlashCommand from "./registerSlashCommand.js";
 import "colors";
+import loadPrefixCommands from "./loadPrefixCommands.js";
 import loadComponents from "./loadComponents.js";
 
 //Functions to start the code
@@ -17,6 +18,7 @@ async function start() {
       await registerSlashCommand(client);
       await loadEvents(client);
       await loadComponents(client);
+      await loadPrefixCommands(client);
       await connectToDB();  
     })
     .catch((err) => console.error(err));

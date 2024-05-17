@@ -24,6 +24,7 @@ client.components = new Collection();
 client.antiSpam = new Collection();
 client.automodWarnMessage = new Collection();
 client.imageModerationCooldown = new Collection();
+client.prefix_commands = new Collection();
 client.cooldown = new Collection();
 
 export default client;
