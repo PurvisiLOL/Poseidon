@@ -11,12 +11,12 @@ export default {
    * @param {Client} client
    */
   async execute(message, client) {
-    const commandFolders = fs.readdirSync('./src/commands').filter(folder => !folder.startsWith('.'));
+    const commandFolders = fs.readdirSync('./src/bot/commands').filter(folder => !folder.startsWith('.'));
     const commandsByCategory = {};
 
     // Iterate through each command folder
     for (const folder of commandFolders) {
-        const commandFiles = fs.readdirSync(`./src/commands/${folder}`).filter(file => file.endsWith('.js'));
+        const commandFiles = fs.readdirSync(`./src/bot/commands/${folder}`).filter(file => file.endsWith('.js'));
         const commands = [];
 
         // Iterate through each command file in the folder
