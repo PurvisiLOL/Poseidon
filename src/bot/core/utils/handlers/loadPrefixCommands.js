@@ -4,7 +4,7 @@ import "colors";
 async function loadPrefixCommands(client) {
   await client.prefix_commands.clear();
 
-  const files = await loadFiles("src/prefix");
+  const files = await loadFiles("src/bot/prefixes");
   console.log("Refreshing prefix commands".yellow);
 
   //Promising all the files and looping through them and pushing them to commandsArray.
