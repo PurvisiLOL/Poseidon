@@ -1,6 +1,6 @@
 # Poseidon
 
-This Poseidon is written in Discord.js using node.js. It provides various functionalities such as error handling, event handling, command handling, and component handling. The component handler supports handling buttons, all types of select menus, and modals. It also comes with mongodb support and utilizes ArrowmentJsonDB for small things 
+Poseidon is written in Discord.js using node.js. It provides various functionalities such as error handling, event handling, command handling, and component handling. The component handler supports handling buttons, all types of select menus, and modals. It also comes with mongodb support!
 
 ## Hosting Service
 
