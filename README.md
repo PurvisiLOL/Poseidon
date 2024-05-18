@@ -25,7 +25,7 @@ To use this template for your Discord bot, follow these steps:
 2. Install dependencies using `npm install`.
 3. Configure the bot token and other settings in the `.env` file.
 4. Customize the commands, events, and components according to your bot's requirements.
-5. Run the bot using `npm .` or `node index.js`.
+5. Run the bot using `npm src/bot/.` or `node src/bot/index.js`.
 
 ## Folder Structure
 
@@ -35,6 +35,7 @@ To use this template for your Discord bot, follow these steps:
 - **core:** Contains core/functions/utility files.
 - **config.json:** Configuration file for defining bot settings.
 - **index.js:** Main bot file for initializing and running the bot.
+- **prefixes:** Contains prefix commands and handlers.
 
 ## Example Command
 
@@ -76,8 +77,8 @@ export default {
 
 ## Contributing
 
-Contributions to this Poseidon are welcome! If you have any suggestions, feature requests, or bug reports, feel free to open an issue or submit a pull request.
+Contributions to Poseidon are welcome! If you have any suggestions, feature requests, or bug reports, feel free to open an issue or submit a pull request.
 
 ## License
 
-This Poseidon is licensed under the [GNU](LICENSE). Feel free to modify and use it for your own projects.
+Poseidon is licensed under the [GNU](LICENSE). Feel free to modify and use it for your own projects.
